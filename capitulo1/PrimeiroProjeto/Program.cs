@@ -30,8 +30,10 @@ namespace PrimeiroProjeto
             bool cansado = true;
             char sexo = 'M'; // Tipo Char - 8 Bytes
 
-            System.Console.WriteLine($"{nome} está cansado ?:{cansado}, sexo: {sexo}");
+            decimal valorDecimal = decimal.MaxValue;
 
+            System.Console.WriteLine($"{nome} está cansado ?:{cansado}, sexo: {sexo}");
+            System.Console.WriteLine(valorDecimal);
         }
     }
 }
